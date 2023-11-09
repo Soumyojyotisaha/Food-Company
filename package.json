@@ -1,0 +1,16 @@
+{
+  "name": "foodproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss-cli -i ./src/styles.css -o ./public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.5",
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
